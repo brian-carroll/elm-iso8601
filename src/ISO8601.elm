@@ -37,8 +37,8 @@ on the ISO 8601 standard i.e. `2016-03-31T12:13:14.22-04:00`
 import Regex exposing (find, regex, split)
 import String
 import ISO8601.Helpers exposing (..)
-import ISO8601.Types as Types exposing (..)
-import ISO8601.Formatter as Formatter exposing (..)
+import ISO8601.Types as Types 
+import ISO8601.Formatter as Formatter
 import Result exposing (Result)
 import Array
 
